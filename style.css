@@ -18,9 +18,12 @@ body {
   font-family: "Raleway", sans-serif;
   background-image: url(./images/bg-desktop.png);
   background-repeat: no-repeat;
-  background-position: top 52vh right;
+  background-position: bottom -4vh right;
+  background-attachment: fixed;
 
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
 }
 .visually-hidden {
   border: 0;
@@ -156,6 +159,14 @@ h2 {
   font-size: 14px;
   font-weight: 400;
   color: var(--Grayish-Blue);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--Pale-Blue);
+}
+.attribution a {
+    color: tomato;
 }
 @media screen and (max-width: 1015px) {
   .container {
